@@ -82,6 +82,7 @@ pip install langchain-text-splitters
 This project requires the following API keys:
 
 * Pinecone API Key
+* Pinecone API Key name 
 * HuggingFace API Token
 
 Set them as environment variables before running the notebook.
@@ -89,6 +90,7 @@ Set them as environment variables before running the notebook.
 Example:
 ```
 export PINECONE_API_KEY="your_key"
+PINECONE_API_ENV = "default"             
 export HUGGINGFACE_API_KEY="your_key"
 ```
 
